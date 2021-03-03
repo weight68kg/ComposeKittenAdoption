@@ -41,7 +41,7 @@ import com.example.androiddevchallenge.ui.theme.MyTheme
 @Composable
 fun CatList(cats: List<Cat>, onCatClick: (Cat) -> Unit = {}) {
     LazyColumn(
-        Modifier.background(MaterialTheme.colors.secondary),
+        Modifier.background(MaterialTheme.colors.background),
         contentPadding = PaddingValues(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
